@@ -8,4 +8,7 @@ import unittest
 class TestGuest(unittest.TestCase):
 
     def setUp(self):
-        self.name = "Mick Fleetwood"
+        self.guest = Guest("Mick Fleetwood")
+
+    def test_guest_has_name(self):
+        self.assertEqual("Mick Fleetwood", self.guest.name)

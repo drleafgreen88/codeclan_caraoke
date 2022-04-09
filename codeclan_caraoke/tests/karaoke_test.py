@@ -27,4 +27,3 @@ class TestKaraoke(unittest.TestCase):
         self.karaoke.add_new_guest(Guest("Mick Fleetwood"))
         self.assertEqual(1, len(self.karaoke.guest_list))
 
-    def test_add_guest_to_room(self):
