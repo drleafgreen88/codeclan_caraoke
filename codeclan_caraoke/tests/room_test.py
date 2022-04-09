@@ -7,13 +7,11 @@ import unittest
 class TestRoom(unittest.TestCase):
 
     def setUp(self):
-        self.room_name = Room("2010s Room")
-        # self.rooms_list = ["80s Room", "90s Room", "00s Room"]
+        self.room_name = Room("2010s Room", "Alligator", "Stevie Nicks")
         self.songs = Song("Go Your Own Way")
         self.guests = Guest("Mick Fleetwood")
+        self.input_songs = []
+        self.input_guests = []
 
-    # def test_can_add_new_room (self):
-        # self.assertEqual("10s Room", self.rooms_list)
-
-    def test_room_has_name(self):
-        self.assertEqual("2010s Room", self.room_name)
+    def test_guest_has_name(self):
+        self.assertEqual("Mick Fleetwood", self.guests)
