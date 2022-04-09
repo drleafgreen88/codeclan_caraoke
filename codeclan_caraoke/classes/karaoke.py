@@ -9,5 +9,8 @@ class Karaoke:
         self.guest_list = []
         self.songs_list = []
 
-    # def add_new_room(self, rooms_list):
-    #     self.append(self.rooms_list)
+    def add_new_room(self, room):
+        self.rooms_list.append(room)
+
+    def add_new_song(self, song):
+        self.songs_list.append(song)
