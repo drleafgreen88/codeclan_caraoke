@@ -3,10 +3,10 @@ from classes.guest import *
 
 class Room:
 
-    def __init__ (self, input_room_name):
-        self.input_room_name = input_room_name
-        self.input_songs = []
-        self.input_guests = []
+    def __init__ (self, room_name):
+        self.room_name = room_name
+        self.songs = []
+        self.guests = []
 
 
     # def add_new_room(self, input_rooms_list):

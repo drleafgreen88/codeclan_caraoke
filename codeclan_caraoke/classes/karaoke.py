@@ -8,3 +8,6 @@ class Karaoke:
         self.rooms_list = []
         self.guest_list = []
         self.songs_list = []
+
+    # def add_new_room(self, rooms_list):
+    #     self.append(self.rooms_list)
