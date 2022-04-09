@@ -1,6 +1,7 @@
 from classes.song import *
 from classes.room import *
 from classes.guest import *
+from classes.karaoke import *
 
 import unittest
 

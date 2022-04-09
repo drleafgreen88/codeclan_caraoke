@@ -3,7 +3,8 @@ from classes.room import *
 from classes.song import *
 
 class Karaoke:
-    def __init__ (self):
+    def __init__ (self, name):
+        self.name = name
         self.rooms_list = []
         self.guest_list = []
         self.songs_list = []
