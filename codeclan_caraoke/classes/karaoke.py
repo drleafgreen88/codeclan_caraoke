@@ -14,3 +14,6 @@ class Karaoke:
 
     def add_new_song(self, song):
         self.songs_list.append(song)
+
+    def add_new_guest(self, guest):
+        self.guest_list.append(guest)

@@ -22,4 +22,9 @@ class TestKaraoke(unittest.TestCase):
     def test_add_new_song(self):
         self.karaoke.add_new_song(Song("Blinding Lights"))
         self.assertEqual(1, len(self.karaoke.songs_list))
-        
+
+    def test_add_new_guest(self):
+        self.karaoke.add_new_guest(Guest("Mick Fleetwood"))
+        self.assertEqual(1, len(self.karaoke.guest_list))
+
+    def test_add_guest_to_room(self):
